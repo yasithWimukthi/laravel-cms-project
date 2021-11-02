@@ -16,6 +16,11 @@ class PostController extends Controller
     {
         return view('blog-post',['post'=>$post]);
     }
+
+    public function create()
+    {
+        return view('admin.post.create');
+    }
 }
 
 
