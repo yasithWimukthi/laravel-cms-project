@@ -9,7 +9,7 @@ class PostController extends Controller
 {
     public function index()
     {
-        return view('blog-post');
+        return view('admin.posts.index');
     }
 
     public function show(Post $post)
